@@ -2,8 +2,7 @@
 {
     public class Point
     {
-        //private int v1;
-        //private int v2;
+   
 
         public int x { get; set; }
         public int y { get; set; }
