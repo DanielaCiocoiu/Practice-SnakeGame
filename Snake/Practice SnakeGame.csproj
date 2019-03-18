@@ -51,8 +51,10 @@
     <Compile Include="Food.cs" />
     <Compile Include="Insert.cs" />
     <Compile Include="GamePlay.cs" />
+    <Compile Include="KeysInput.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resume.cs" />
     <Compile Include="SnakeGame.cs" />
   </ItemGroup>
   <ItemGroup>

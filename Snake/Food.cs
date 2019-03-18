@@ -27,7 +27,9 @@ namespace Snake
         public static void PlaceFoodLogic() 
         {
             Random random = new Random();
-            GamePlay.Instance.food = new Point { x = random.Next(0, GamePlay.Instance.maxX), y = random.Next(0, GamePlay.Instance.maxY) };
+            GamePlay.Instance.food = new Point {
+                x = random.Next(0, GamePlay.Instance.maxX),
+                y = random.Next(0, GamePlay.Instance.maxY) };
 
         }
 

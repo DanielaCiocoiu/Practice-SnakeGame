@@ -30,13 +30,13 @@ namespace Snake
             Score = 0;
             Width = 17;
             Height = 17;
-            Speed = 5;
+            Speed = 4;
             PlayerName = "";
             Difficulty = 0;
             EndGame = false;
             direction = Direction.Right;
         }
-        private static GamePlay instance;// exemplu de Singleton
+        private static GamePlay instance;// Singleton
 
         public static GamePlay Instance
         {
